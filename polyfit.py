@@ -1,7 +1,6 @@
 import numpy as np
+import numpy.polynomial.polynomial as poly
 import matplotlib.pyplot as plt
-
-from numpy.polynomial import polynomial as poly
 
 x = np.linspace(0, 1, 51)
 print(x)
