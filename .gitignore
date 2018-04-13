@@ -101,4 +101,5 @@ ENV/
 .mypy_cache/
 
 # PyCharm
-.idea/
+.idea/workspace.xml
+.idea/tasks.xml
