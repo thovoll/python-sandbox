@@ -5,8 +5,8 @@ from numpy.polynomial import polynomial as poly
 
 x = np.linspace(0, 1, 51)
 print(x)
-# y = x**3 - x + (np.random.randn(len(x)) / 10)
-y = x**2
+y = x**3 - x + (np.random.randn(len(x)) / 10)
+# y = x**2
 print(y)
 
 c, stats = poly.polyfit(x, y, 3, full=True)
