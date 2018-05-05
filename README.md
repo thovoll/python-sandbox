@@ -103,10 +103,10 @@ This is left as an exercise for the reader. PyCharm can use an existing Conda en
 
 * Open Anaconda Prompt
 * Change directory to where you cloned this repo
-* Activate environment by entering "activate <environment_name>"
-* Run Jupyter Notebook server by entering "jupyter notebook"
-  * If Jupyter has been installed into the environment, that installation is used. If not, the Jupyter installation that comes with Anaconda is used.
-* Output goes to the console and a browser tab opens with the web interface
-* Run notebooks
+* Activate environment by entering `conda activate python-sandbox`
+* Install Jupyter Notebook by entering `conda install jupyter`
+* Run Jupyter Notebook server by entering `jupyter notebook`
+* Notebook server output goes to the console and a browser tab opens with the web interface
+* Open and run notebooks from the web interface
 
 ## 
