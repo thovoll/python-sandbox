@@ -7,7 +7,6 @@ x = np.linspace(0, 1, 51)
 print(x)
 
 y = x**3 - x + (np.random.randn(len(x)) / 10)
-# y = x**2
 print(y)
 
 # NumPy can do least-squares fit of a polynomial to data:
