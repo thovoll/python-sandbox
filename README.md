@@ -49,6 +49,13 @@ Another important program is Jupyter Notebook (formerly known as IPython), which
 
 This intro will cover Jupyter Notebooks as well.
 
+## Interactive Python
+
+* Start Anaconda Prompt
+* Start the Python interpreter by entering `python`
+* Enter python code and press enter :-)
+  * For example: `print("Hello World")`
+
 ## Working with Python Files
 
 ### Using Anaconda Prompt
