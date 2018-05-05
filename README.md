@@ -1,7 +1,5 @@
 # Python Intro
 
-This file is in Markdown format. It can be read locally using Notepad, Visual Studio Code, Typora, or online at visualstudio.com.
-
 ## Python Toolchain
 
 ### Anaconda, Conda, and Miniconda
