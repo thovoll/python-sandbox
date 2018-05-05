@@ -106,7 +106,13 @@ This is left as an exercise for the reader. PyCharm can use an existing Conda en
 * Activate environment by entering `conda activate python-sandbox`
 * Install Jupyter Notebook by entering `conda install jupyter`
 * Run Jupyter Notebook server by entering `jupyter notebook`
-* Notebook server output goes to the console and a browser tab opens with the web interface
-* Open and run notebooks from the web interface
+  * Notebook server output goes to the console and a browser tab opens with the web interface
+* In the Jupyter Notebook web interface:
+  * Click on `polyfit.ipynb`
+    * The notebook opens and a notebook kernel will automatically start in the notebook server
+  * Click the "Run" button to run the notebook cell by cell
+  * Select "Kernel", "Shutdown" to shut down the kernel
+* Back in the Anaconda Prompt
+  * Press Ctrl+C to exit the notebook server
 
 ## 
