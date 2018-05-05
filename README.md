@@ -22,8 +22,9 @@ Install VS Code from here: https://code.visualstudio.com/docs/setup/windows
 
 These extensions are useful for Python development:
 
-- "Anaconda Extension Pack" (also installs "YAML Support by Red Hat")
 - "Python"
+- "Anaconda Extension Pack" (also installs "YAML Support by Red Hat")
+- "VS Code Jupyter Notebook Previewer"
 
 Install extensions by clicking on the extensions icon in the left navigation sidebar or by entering command mode via Ctrl+Shift+P and typing "Extensions: Install Extensions" (it will auto-complete), followed by hitting Enter. Then search for extensions and click "Install". You might have to "Reload" as well.
 
@@ -55,6 +56,7 @@ This intro will cover Jupyter Notebooks as well.
 * Start the Python interpreter by entering `python`
 * Enter python code and press enter :-)
   * For example: `print("Hello World")`
+* To exit the interpreter, enter `exit()`
 
 ## Working with Python Files
 
