@@ -11,3 +11,5 @@ print(df)
 
 pt = pd.pivot_table(df, values='B', index=['A'], aggfunc='sum')
 print(pt)
+
+# More: https://pandas.pydata.org/pandas-docs/stable/10min.html

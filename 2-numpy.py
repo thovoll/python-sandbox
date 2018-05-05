@@ -24,4 +24,4 @@ e1 = np.array([[3, 1], [1, 2]])
 e2 = np.array([9, 8])
 print(np.linalg.solve(e1, e2))
 
-# More here: https://docs.scipy.org/doc/numpy/user/quickstart.html
+# More: https://docs.scipy.org/doc/numpy/user/quickstart.html
