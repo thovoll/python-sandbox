@@ -6,17 +6,21 @@
 
 Anaconda is a free, open source, high-performance and optimized Python and R distribution. Anaconda includes Python and 100+ automatically installed, open source scientific packages and their dependencies that have been tested to work well together, including SciPy, NumPy and many others. It also includes Conda.
 
-Conda is a Python package and environment manager that installs and updates Python, Python packages, and their dependencies. Conda also lets you easily switch between conda environments on your local computer, including switching Python versions. 
+Conda is a Python package and environment manager that installs and updates Python, Python packages, and their dependencies. Conda also lets you easily switch between Conda environments on your local computer, including switching Python versions. 
 
-Miniconda is a small bootstrap version of Anaconda that includes only conda, Python, the packages they depend on and a small number of other useful packages, including pip, zlib and a few others.
+Miniconda is a small bootstrap version of Anaconda that includes only Conda, Python, the packages they depend on and a small number of other useful packages, including pip, zlib and a few others.
 
-Install the 64-bit Windows version for Python 3.6 from here: https://conda.io/miniconda.html. Accept the default selections during installation. 
+#### Choosing a distribution
 
-Miniconda will be installed here: `C:\Users\<you>\AppData\Local\Continuum\miniconda3`
+Choosing between Anaconda and Miniconda comes down to personal preference. Anaconda is a single install that comes with a lot of packages that are guaranteed to work together. Miniconda is a smaller install which means you have to install the Python packages you need later on.
+
+**Anaconda: **Install the 64-bit Windows version for Python 3.6 from here: https://www.anaconda.com/download. Accept all default selections during installation. 
+
+**Miniconda**: Install the 64-bit Windows version for Python 3.6 from here: https://conda.io/miniconda.html. Accept all default selections during installation. 
 
 ### Visual Studio Code
 
-VS Code can be used for working on Python projects. It's free, lighweight, and supports conda environments. It also has auto-complete, IntelliSense, linting, debugging, unit testing, and basic refactoring. 
+VS Code can be used for working on Python projects. It's free, lighweight, and supports Conda environments. It also has auto-complete, IntelliSense, linting, debugging, unit testing, and basic refactoring. 
 
 Install VS Code from here: https://code.visualstudio.com/docs/setup/windows
 
@@ -30,7 +34,7 @@ Install extensions by clicking on the extensions icon in the left navigation sid
 
 ### PyCharm
 
-PyCharm can be used for working on Python projects. It has a free version ("Community") and a paid version ("Professional") and supports conda environments. It's more heavyweight than Visual Studio Code but has more advanced code navigation and refactoring support. The paid version also has advanced support for data science work, a Python profiler, and much more. 
+PyCharm can be used for working on Python projects. It has a free version ("Community") and a paid version ("Professional") and supports Conda environments. It's more heavyweight than Visual Studio Code but has more advanced code navigation and refactoring support. The paid version also has advanced support for data science work, a Python profiler, and much more. 
 
 Install PyCharm from here: https://www.jetbrains.com/pycharm/download
 
@@ -66,10 +70,10 @@ Note: Anaconda Prompt is a Windows application that comes with Anaconda and Mini
 
 * Start Anaconda Prompt
 * Change directory to where you cloned this repo
-* Create a conda environment by entering  `conda create -n python-sandbox`
+* Create a Conda environment by entering  `conda create -n python-sandbox`
   * The environment is created here (assuming Miniconda):
     `C:\Users\<you>\AppData\Local\Continuum\miniconda3\envs\python-sandbox`
-* Activate the conda environment by entering `conda activate python-sandbox`
+* Activate the Conda environment by entering `conda activate python-sandbox`
 * Run first Python file by entering `python 1-helloworld.py`
   * Console output: `Hello World`
 * Run second Python file by entering `python 2-numpy.py`
