@@ -3,9 +3,17 @@ import matplotlib.pyplot as plt
 
 housing=pd.read_csv("data/housing.csv")
 
+print("-"*10)
 print(housing.head())
+print("-"*10)
 print(housing.info())
+print("-"*10)
+print(housing.describe())
+print("-"*10)
+print(housing.sort_values(by='population', ascending=False).head()[['population', 'median_income']])
+print("-"*10)
 print(housing["ocean_proximity"].value_counts())
+print("-"*10)
 
 housing.hist(bins=50, figsize=(20,15))
 plt.show()
