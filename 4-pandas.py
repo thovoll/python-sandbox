@@ -52,6 +52,12 @@ print("-"*10)
 print(s)
 print(type(s))
 
+# Group by
+gs = df.groupby('A').sum()
+print("-"*10)
+print(gs)
+print(type(gs))
+
 # Pivot table
 pt = pd.pivot_table(df, values='B', index=['A'], aggfunc='sum')
 print("-"*10)
