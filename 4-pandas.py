@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # DataFrame is a 2-dimensional labeled data structure with columns of potentially different types.
 # You can think of it like a spreadsheet or SQL table.
@@ -63,5 +64,19 @@ pt = pd.pivot_table(df, values='B', index=['A'], aggfunc='sum')
 print("-"*10)
 print(pt)
 print(type(pt))
+
+ts = pd.Series(np.random.randn(1000), index=pd.date_range('1/1/2000', periods=1000))
+print("-"*10)
+print(ts.head())
+ts = ts.cumsum()
+ts.plot()
+plt.show()
+
+df = pd.DataFrame(np.random.randn(1000, 4), index=ts.index, columns=['A', 'B', 'C', 'D'])
+print("-"*10)
+print(df.head())
+df = df.cumsum()
+df.plot()
+plt.show()
 
 # More: https://pandas.pydata.org/pandas-docs/stable/10min.html
