@@ -14,7 +14,7 @@ ones = np.ones((2, 3), dtype=np.int16)
 print(ones)
 
 print(np.arange(0, 2, 0.25))  # floating point precision is finite
-print(np.linspace(0, 2, 9))  # better
+print(np.linspace(0, 2, 9))   # better
 
 # Financial: mortgage payment
 print(np.pmt(.04 / 12, 360, 1000000))
@@ -23,5 +23,13 @@ print(np.pmt(.04 / 12, 360, 1000000))
 e1 = np.array([[3, 1], [1, 2]])
 e2 = np.array([9, 8])
 print(np.linalg.solve(e1, e2))
+
+# Matrix multiplication
+A = np.array([[1,1],
+              [0,1]])
+B = np.array([[2,0],
+              [3,4]])
+print(A*B)      # elementwise product
+print(A.dot(B)) # matrix product
 
 # More: https://docs.scipy.org/doc/numpy/user/quickstart.html
