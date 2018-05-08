@@ -65,6 +65,7 @@ print("-"*10)
 print(pt)
 print(type(pt))
 
+# Plotting
 ts = pd.Series(np.random.randn(1000), index=pd.date_range('1/1/2000', periods=1000))
 print("-"*10)
 print(ts.head())
