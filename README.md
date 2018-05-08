@@ -76,16 +76,7 @@ Note: Anaconda Prompt is a Windows application that comes with Anaconda and Mini
 * Activate the Conda environment by entering `conda activate python-sandbox`
 * Run first Python file by entering `python 1-helloworld.py`
   * Console output: `Hello World`
-* Run second Python file by entering `python 2-numpy.py`
-  * Console output: `No module named 'numpy'`
-* View installed packages: `conda list`
-* Install numpy: `conda install numpy`
-  * Around a dozen packages will be installed, including numpy
-  * Installed packages are located here (assuming Miniconda): 
-    `C:\Users\<you>\AppData\Local\Continuum\miniconda3\envs\python-sandbox\Lib\site-packages`
-* Run Python file again by entering `python 2-numpy.py`
-  * Console output: `[[ 0  1  2  3  4]`...
-* Repeat for all other Python files in sample project
+* If packages are missing, install by entering `conda install <package_name>`
 
 ### Using Visual Studio Code
 
