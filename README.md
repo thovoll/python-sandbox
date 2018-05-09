@@ -14,7 +14,7 @@ Miniconda is a small bootstrap version of Anaconda that includes only Conda, Pyt
 
 Choosing between Anaconda and Miniconda comes down to personal preference. Anaconda is a single install that comes with a lot of packages that are guaranteed to work together. Miniconda is a smaller install which means you have to install the Python packages you need later on.
 
-**Anaconda: **Install the 64-bit Windows version for Python 3.6 from here: https://www.anaconda.com/download. Accept all default selections during installation. 
+**Anaconda**: Install the 64-bit Windows version for Python 3.6 from here: https://www.anaconda.com/download. Accept all default selections during installation. 
 
 **Miniconda**: Install the 64-bit Windows version for Python 3.6 from here: https://conda.io/miniconda.html. Accept all default selections during installation. 
 
